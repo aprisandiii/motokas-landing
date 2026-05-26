@@ -743,7 +743,7 @@
     .features-grid { grid-template-columns: 1fr; }
     .how { padding: 60px 20px; }
     .pricing { padding: 60px 20px; }
-    .pricing-cards { grid-template-columns: 1fr; }
+    .pricing-cards { grid-template-columns: 1fr !important; }
     .testimonials { padding: 60px 20px; }
     .testimonials-grid { grid-template-columns: 1fr; }
     .cta-section { padding: 80px 20px; }
@@ -942,35 +942,50 @@
 <section class="pricing" id="harga">
   <div class="section-label">Harga</div>
   <h2 class="section-title">Pilih Paket Anda</h2>
-  <p class="section-sub">Hubungi kami untuk mendapatkan penawaran terbaik sesuai kebutuhan toko Anda.</p>
+  <p class="section-sub">Bayar sekali, pakai selamanya. Tidak ada biaya bulanan.</p>
 
-  <div class="pricing-cards">
+  <div class="pricing-cards" style="grid-template-columns:repeat(3,1fr)">
     <div class="pricing-card">
-      <div class="pricing-plan">Basic</div>
+      <div class="pricing-plan">Starter</div>
       <div class="pricing-price">Gratis <span>selamanya</span></div>
       <div class="pricing-desc">Untuk toko yang baru mulai digital</div>
       <ul class="pricing-features">
-        <li>Kasir & manajemen produk</li>
-        <li>Laporan harian</li>
-        <li>Export CSV & TXT</li>
+        <li>Maks. 20 produk</li>
+        <li>1 perangkat</li>
+        <li>Laporan 7 hari</li>
+        <li>Export CSV</li>
         <li>PIN keamanan</li>
         <li>Install di HP (PWA)</li>
       </ul>
       <a href="https://aprisandiii.github.io/motokas/" target="_blank" class="btn-pricing outline">Mulai Gratis</a>
     </div>
+    <div class="pricing-card">
+      <div class="pricing-plan">Basic</div>
+      <div class="pricing-price">199<span>rb sekali bayar</span></div>
+      <div class="pricing-desc">Untuk toko yang sudah serius digital</div>
+      <ul class="pricing-features">
+        <li>Produk unlimited</li>
+        <li>1 perangkat</li>
+        <li>Laporan semua waktu</li>
+        <li>Export CSV &amp; TXT</li>
+        <li>Backup &amp; restore data</li>
+        <li>PIN keamanan</li>
+      </ul>
+      <a href="https://wa.me/6285798132246?text=Halo,%20saya%20mau%20beli%20MotoKas%20Basic%20Rp%20199.000!" target="_blank" class="btn-pricing outline">Beli Sekarang</a>
+    </div>
     <div class="pricing-card featured">
       <div class="pricing-plan">Pro</div>
-      <div class="pricing-price">Hubungi <span>kami</span></div>
-      <div class="pricing-desc">Untuk toko yang ingin fitur lengkap</div>
+      <div class="pricing-price">399<span>rb sekali bayar</span></div>
+      <div class="pricing-desc">Untuk toko dengan karyawan &amp; multi perangkat</div>
       <ul class="pricing-features">
         <li>Semua fitur Basic</li>
         <li>Cloud Sync realtime</li>
-        <li>Multi perangkat</li>
+        <li>Multi perangkat (HP + tablet + laptop)</li>
         <li>Google Sheets integration</li>
-        <li>Backup & restore data</li>
-        <li>Support prioritas</li>
+        <li>Backup &amp; restore data</li>
+        <li>Support prioritas via WhatsApp</li>
       </ul>
-      <a href="https://wa.me/6285798132246?text=Halo,%20saya%20ingin%20tanya%20harga%20MotoKas%20Pro!" target="_blank" class="btn-pricing primary">💬 Tanya Harga</a>
+      <a href="https://wa.me/6285798132246?text=Halo,%20saya%20mau%20beli%20MotoKas%20Pro%20Rp%20399.000!" target="_blank" class="btn-pricing primary">⚡ Beli Sekarang</a>
     </div>
   </div>
 </section>
